@@ -27,14 +27,52 @@
               "height": 60
             },
             "shape": "trust-boundary-box",
-            "id": "b1fa4e7a-49a8-46c7-a217-2478b474455d",
             "zIndex": -1,
+            "id": "b1fa4e7a-49a8-46c7-a217-2478b474455d",
             "data": {
               "type": "tm.BoundaryBox",
               "name": "Trust Boundary",
               "description": "",
               "isTrustBoundary": true,
               "hasOpenThreats": false
+            }
+          },
+          {
+            "position": {
+              "x": 800,
+              "y": 180
+            },
+            "size": {
+              "width": 120,
+              "height": 60
+            },
+            "attrs": {
+              "topLine": {
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              },
+              "bottomLine": {
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "store",
+            "id": "bc60aff5-15f8-4467-ba3a-69ccc56cf587",
+            "zIndex": 0,
+            "data": {
+              "type": "tm.Store",
+              "name": "Store",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isALog": false,
+              "isEncrypted": false,
+              "isSigned": false,
+              "storesCredentials": false,
+              "storesInventory": false,
+              "threats": []
             }
           }
         ]
