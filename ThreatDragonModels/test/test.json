@@ -16,7 +16,28 @@
         "placeholder": "New STRIDE diagram description",
         "thumbnail": "./public/content/images/thumbnail.stride.jpg",
         "version": "2.2.0",
-        "cells": []
+        "cells": [
+          {
+            "position": {
+              "x": 420,
+              "y": 330
+            },
+            "size": {
+              "width": 128,
+              "height": 60
+            },
+            "shape": "trust-boundary-box",
+            "id": "b1fa4e7a-49a8-46c7-a217-2478b474455d",
+            "zIndex": -1,
+            "data": {
+              "type": "tm.BoundaryBox",
+              "name": "Trust Boundary",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            }
+          }
+        ]
       }
     ],
     "diagramTop": 1,
